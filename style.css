@@ -38,6 +38,24 @@ button{
     cursor: pointer;
 }
 
+.button-youtube{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: orange;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button-youtube:hover{
+    background-color: rgb(201, 119, 38);
+}
+
+
 /* OTHER HTML ELEEMTNS DESIGN AND ANIMATIONS*/
 button:hover{
     background-color: rgb(201, 119, 38);
